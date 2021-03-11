@@ -21,15 +21,15 @@ The recordings were collected through the audio-web API employing different Wind
   
 - [FeatureGenerator](FeatureGenerator/)
 
-Code to generate 14 MFCC \*.cvs datasets with MFCC coefficients varying from 5 to 31 (odd numbers).
+  Code to generate 14 MFCC \*.cvs datasets with MFCC coefficients varying from 5 to 31 (odd numbers).
 
 - [NoiseClassification](NoiseClassification/)
 
-This folder contains multiple \*.py files each containing different classifiers testing their accuracy on environmental noise classification.
-Classifiers implementation from the "scikit-learn" toolkit.
+  This folder contains multiple \*.py files each containing different classifiers testing their accuracy on environmental noise classification.
+  Classifiers implementation from the "scikit-learn" toolkit.
 
-The classifiers under test were distributed in different \*.py files so that each could be submitted as a separate job to the HPC-Cluster. 
-I proceeded in this way because it was a computationally expensive task, as each classifier was tested 14 times (on each \*.csv dataset).
+  The classifiers under test were distributed in different \*.py files so that each could be submitted as a separate job to the HPC-Cluster. 
+  I proceeded in this way because it was a computationally expensive task, as each classifier was tested 14 times (on each \*.csv dataset).
 
 ## Citing
 
