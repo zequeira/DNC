@@ -6,8 +6,8 @@ The recordings were collected through the audio-web API employing different Wind
 
 
 
-| Noise Classes | Noise Category           | Files per<br>Category  |
-| ------------- |:-------------:| -----:|--------:|--------:|
+| Noise Classes | Noise Category| Files per<br>Category  |
+| ------------- |:-------------:| ----------------------:|
 | coffee machine, dishwasher <br> water heater, street traffic | mechanic | 1545 |
 | TV, TV-Show, music <br> radio, people    | melodic  | 1427 |
 | quiet                            | quiet    | 1405 |
@@ -18,7 +18,18 @@ The recordings were collected through the audio-web API employing different Wind
 - [`audio/*.wav`](audio/)
 
   4377 audio recordings in WAV format (14.6.0 seconds long on average, 48.0 kHz, stereo).
+  
+- [FeatureGenerator](FeatureGenerator/)
 
+Code to generate 14 MFCC \*.cvs datasets with MFCC coefficients varying from 5 to 31 (odd numbers).
+
+- [NoiseClassification](NoiseClassification/)
+
+This folder contains multiple \*.py files each containing different classifiers testing their accuracy on environmental noise classification.
+Classifiers implementation from the "scikit-learn" toolkit.
+
+The classifiers under test were distributed in different \*.py files so that each could be submitted as a separate job to the HPC-Cluster. 
+I proceeded in this way because it was a computationally expensive task, as each classifier was tested 14 times (on each \*.csv dataset).
 
 ## Citing
 
