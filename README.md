@@ -17,7 +17,11 @@ The recordings were collected through the audio-web API employing different Wind
 
 - [`audio/*.wav`](audio/)
 
-  4377 audio recordings in WAV format (14.6.0 seconds long on average, 48.0 kHz, stereo).
+  4377 audio recordings in WAV format (14.6.0 seconds long on average, 48.0 kHz, stereo) with the following naming convention:
+  
+  `{NOISE_TYPE} _ {TIMESTAMP/ID}.wav`
+  
+  - `{NOISE_TYPE}` - type of environmental background noise,
   
 - [FeatureGenerator](FeatureGenerator/)
 
@@ -39,7 +43,9 @@ If you find this dataset useful in an academic setting please cite:
 
 ## Download
 
-Please get in touch to download the dataset: (rafael.zequeira@tu-berlin.de)
+The dataset can be downloaded as a single .zip file (~3.92 GB):
+
+**[Download DNC dataset](https://depositonce.tu-berlin.de/bitstream/11303/12788/2/audios.zip)**
 
 
 ## References
