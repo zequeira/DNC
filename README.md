@@ -45,7 +45,7 @@ If you find this dataset useful in an academic setting please cite:
 
 The dataset can be downloaded as a single .zip file (~3.92 GB):
 
-**[Download DNC dataset](https://depositonce.tu-berlin.de/bitstream/11303/12788/2/audios.zip)**
+**[Download DNC dataset](https://depositonce.tu-berlin.de/bitstream/11303/12845/2/DNC.zip)**
 
 
 ## References
